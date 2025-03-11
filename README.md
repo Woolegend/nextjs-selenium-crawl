@@ -64,7 +64,7 @@ const driver = new Builder()
 
 macOS에서 chromedriver를 실행할 때 다음 경고창이 뜰 것이다.
 
-![alt text](<스크린샷 2025-03-11 오후 2.36.10.png>)
+<img width="263" alt="스크린샷 2025-03-11 오후 2 36 10" src="https://github.com/user-attachments/assets/5cb41a04-7d96-4ed6-8dda-889e5c6283bd" />
 
 해당 경고창은 macOS의 보안 정책으로 인해 chromedriver이 실행되지 않는 것이다.
 
