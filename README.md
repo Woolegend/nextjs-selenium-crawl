@@ -31,7 +31,9 @@ https://googlechromelabs.github.io/chrome-for-testing/#stable
 
 [해당 내용](#selenium-manager를-불러오지-못-함)을 따라 명시하면 된다.
 
-## selenium-webdriver 타입 에러
+## 트러블 슈팅
+
+### 1. selenium-webdriver 타입 에러
 
 타입스크립트를 사용하는 환경에서 selenium을 사용할 경우 아래 오류가 발생한다.
 
@@ -50,7 +52,7 @@ https://googlechromelabs.github.io/chrome-for-testing/#stable
 npm i --save-dev @types selenium-webdriver
 ```
 
-## Selenium Manager를 불러오지 못 함
+### 2. Selenium Manager를 불러오지 못 함
 
 ```
 Selenium Error: Error: Unable to obtain browser driver.
@@ -91,7 +93,7 @@ const driver = new Builder()
   .build();
 ```
 
-## macOS 보안 오류
+### 3. macOS 보안 오류
 
 macOS에서 chromedriver를 실행할 때 다음 경고창이 뜰 것이다.
 
@@ -108,7 +110,7 @@ macOS에서 chromedriver를 실행할 때 다음 경고창이 뜰 것이다.
 3. `보안`
 4. `chromedriver` 허용
 
-## Chrome과 ChromeDriver 버전 불일치
+### 4. Chrome과 ChromeDriver 버전 불일치
 
 ```
  ⨯ unhandledRejection: [Error
