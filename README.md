@@ -1,5 +1,36 @@
 # nextjs-selenium-crawl
 
+- 환경: Next.js App Route
+- 패키지: [selenium-webdriver](https://www.npmjs.com/package/selenium-webdriver), [chromedriver](https://googlechromelabs.github.io/chrome-for-testing/#stable)
+
+## 사용법
+
+### api 설정
+
+#### 1. git clone
+
+```
+git clone https://github.com/Woolegend/nextjs-selenium-crawl.git
+```
+
+#### 2. `/api/crawl/route.ts` 원하는 경로에 배치
+
+#### 3. 패키지 설치
+
+```
+npm i selenium-webdriver chromedriver
+```
+
+#### 4. chromedriver 수동 설치
+
+아래 리스트 중 알맞은 플랫폼을 선택해 chromedriver를 설치
+
+https://googlechromelabs.github.io/chrome-for-testing/#stable
+
+#### 5. chromedriver 실행 파일 경로 명시
+
+[해당 내용](#selenium-manager를-불러오지-못-함)을 따라 명시하면 된다.
+
 ## selenium-webdriver 타입 에러
 
 타입스크립트를 사용하는 환경에서 selenium을 사용할 경우 아래 오류가 발생한다.
